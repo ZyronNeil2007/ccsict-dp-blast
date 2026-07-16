@@ -354,3 +354,51 @@ canvas {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--forest-600);
 }
+
+/* ───────────────────────────────────────────────────────────────────────────
+   MOBILE & RESPONSIVE PRO MAX UPGRADES
+─────────────────────────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+    .logo {
+        height: 50px !important;
+        margin: 0.25rem !important;
+    }
+    
+    .display-5 {
+        font-size: 2.25rem !important;
+    }
+    
+    .hero-section p {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+    }
+
+    .glass-card {
+        padding: 1.5rem !important;
+        border-radius: var(--radius-xl) !important;
+    }
+    
+    .canvas-container {
+        border-radius: var(--radius-sm);
+    }
+    
+    /* Make buttons full width on small mobile devices to prevent awkward stacking */
+    #downloadBtn, #shareBtn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    /* Adjust button gaps for vertical stacking */
+    .gap-3 {
+        gap: 0.75rem !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo {
+        height: 40px !important;
+    }
+    .display-5 {
+        font-size: 1.8rem !important;
+    }
+}
