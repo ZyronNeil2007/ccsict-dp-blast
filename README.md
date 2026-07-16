@@ -27,6 +27,16 @@ cd ccsict-dp-blast
 start index.html
 ```
 
+## 📝 Changelog
+
+### v1.1.0 ("Pro Max" Edition)
+- **Cinematic Animations:** Added staggered CSS entrance animations (`fadeInUp`) for all UI elements.
+- **Advanced Glassmorphism:** Enhanced the main glass card with deeper ambient shadows and noise textures for a premium look.
+- **Gradient Typography:** The "DP Blast" title now uses a shimmering gold-to-green linear gradient.
+- **Micro-interactions:** Smooth glowing focus rings added to dropdowns/inputs, and fluid transitions added to buttons.
+- **Mobile Mode Enhancements:** Perfected responsive layout, ensuring logos, typography, and buttons fit beautifully and seamlessly on all mobile screens.
+- **Custom Scrollbar:** Added a sleek, dark Forest Green scrollbar to replace the default browser scrollbar.
+
 ## 👨‍💻 Developer
 Developed by **Zyron Neil Bautista | CCSICT CSBO** 
 
