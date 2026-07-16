@@ -140,12 +140,19 @@ body {
 
 /* Glass Card implementation */
 .glass-card {
-    background: var(--glass-t1-bg);
-    backdrop-filter: blur(var(--glass-t1-blur));
-    -webkit-backdrop-filter: blur(var(--glass-t1-blur));
-    border: 1px solid var(--glass-t1-border);
+    background: rgba(255, 255, 255, 0.05); /* Pro Max Lighter base */
+    backdrop-filter: blur(80px) saturate(150%);
+    -webkit-backdrop-filter: blur(80px) saturate(150%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: var(--radius-2xl);
-    box-shadow: var(--glass-t1-shadow);
+    box-shadow: 
+        inset 0 1px 0 rgba(255, 255, 255, 0.15),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.02),
+        0 40px 100px rgba(0, 0, 0, 0.8),
+        0 10px 30px rgba(0, 0, 0, 0.5);
+    /* Subtle noise overlay simulation */
+    background-image: radial-gradient(rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 4px 4px;
 }
 
 .logo {
@@ -160,7 +167,11 @@ body {
 }
 
 .text-accent {
-    color: var(--gold-500);
+    background: linear-gradient(135deg, var(--gold-300), var(--gold-500), var(--green-400));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent; /* fallback */
 }
 
 .btn-accent {
@@ -304,4 +315,42 @@ canvas {
 .slider-accent::-moz-range-thumb {
     background: var(--green-500);
     box-shadow: 0 0 10px rgba(21, 185, 21, 0.5);
+}
+
+/* ───────────────────────────────────────────────────────────────────────────
+   PRO MAX ANIMATIONS & SCROLLBAR
+─────────────────────────────────────────────────────────────────────────── */
+
+/* Cinematic Entrance Animations */
+.animate-fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.25s; }
+.delay-3 { animation-delay: 0.4s; }
+.delay-4 { animation-delay: 0.55s; }
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Custom Pro Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: var(--forest-950);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--forest-700);
+    border-radius: var(--radius-sm);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--forest-600);
 }
