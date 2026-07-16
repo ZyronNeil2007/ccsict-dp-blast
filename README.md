@@ -30,4 +30,4 @@ start index.html
 ## 👨‍💻 Developer
 Developed by **Zyron Neil Bautista | CCSICT CSBO** 
 
-*Version 1.0.0*
+*Version 1.1.0*
