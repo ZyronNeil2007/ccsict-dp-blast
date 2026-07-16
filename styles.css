@@ -614,6 +614,59 @@ canvas {
     color: var(--white-20);
 }
 
+/* About the Developer Card */
+.footer-about-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-lg);
+    padding: 1.75rem 2rem;
+    margin-bottom: 1.5rem;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.footer-about-avatar {
+    font-size: 3.25rem;
+    color: var(--green-400);
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.footer-about-name {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 0.25rem;
+}
+
+.footer-about-role {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--green-400);
+    letter-spacing: 0.04em;
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer-about-bio {
+    font-size: 0.875rem;
+    color: var(--white-70);
+    line-height: 1.7;
+    margin: 0;
+}
+
+.footer-divider {
+    border: none;
+    border-top: 1px solid var(--glass-border);
+    margin: 0 0 1.75rem;
+}
+
 /* ─────────────────────────────────────────────────────────────────────────
    ANIMATIONS
 ───────────────────────────────────────────────────────────────────────── */
