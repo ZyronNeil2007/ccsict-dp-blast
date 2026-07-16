@@ -29,6 +29,13 @@ start index.html
 
 ## 📝 Changelog
 
+### v1.1.1
+- **Full Page Layout Redesign:** Transformed the single-card layout into a complete landing page with distinct sections.
+- **Sticky Navbar:** Added a glassmorphic top navigation bar with a direct link to the Source Code.
+- **Hero Section:** Introduced a dedicated hero area with clear Call-to-Action (CTA) buttons for generating a DP or viewing the source code.
+- **Process Highlights:** Added a new 3-step "How It Works" card section to guide users.
+- **Clean Footer:** Simplified the footer design, focusing on essential project links, versioning, and developer credit.
+
 ### v1.1.0 ("Pro Max" Edition)
 - **Cinematic Animations:** Added staggered CSS entrance animations (`fadeInUp`) for all UI elements.
 - **Advanced Glassmorphism:** Enhanced the main glass card with deeper ambient shadows and noise textures for a premium look.
