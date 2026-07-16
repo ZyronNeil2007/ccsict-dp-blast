@@ -6,7 +6,7 @@ A premium, interactive web application built for the **CCSICT CSBO** to generate
 
 ## ✨ Features
 - **Twibbonize-Style Interaction:** Fluid drag-and-drop repositioning and smooth zoom controls (mouse wheel & pinch-to-zoom support).
-- **Premium UI:** Apple-inspired glassmorphism design with a dynamic, animated floating-orb background.
+- **Premium UI:** design with a dynamic, animated floating-orb background.
 - **Client-Side Processing:** All image processing and cropping is handled locally in the browser using the HTML5 Canvas API—ensuring user privacy and lightning-fast generation.
 - **Role Selection:** Dynamically loads different transparent frames based on the user's role (Freshie, Sophomore, Junior, Senior, Faculty).
 - **Social Integration:** Built-in Web Share API for instantly sharing the generated DP to social media platforms.
