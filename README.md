@@ -1,8 +1,11 @@
 # CCSICT DP Blast Generator 🚀
 
-**Live Website:** [https://zyronneil2007.github.io/ccsict-dp-blast/](https://zyronneil2007.github.io/ccsict-dp-blast/)
+**Live Website:** [https://zyronneil2007.github.io/ccsict-dp-blast/](https://zyronneil2007.github.io/ccsict-dp-blast/) · [https://ccsict.netlify.app/](http://ccsict.netlify.app/)
 
 A premium, interactive web application built for the **CCSICT CSBO** to generate custom Display Picture (DP) frames for the S.Y. 2026-2027 opening. Users can upload their photo, adjust it under a transparent frame, and instantly download their official DP for social media.
+
+> **CCSICT** — College of Computing Studies, Information and Communication Technology
+> **CSBO** — Computing Student Body Organization
 
 ---
 
