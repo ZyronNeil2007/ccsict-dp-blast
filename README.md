@@ -1,6 +1,8 @@
 # CCSICT DP Blast Generator 🚀
 
-**Live Website:** [https://zyronneil2007.github.io/ccsict-dp-blast/](https://zyronneil2007.github.io/ccsict-dp-blast/)
+**Live Website:**
+
+[https://zyronneil2007.github.io/ccsict-dp-blast/](https://zyronneil2007.github.io/ccsict-dp-blast/)
 
 [https://ccsict.netlify.app/](http://ccsict.netlify.app/)
 
