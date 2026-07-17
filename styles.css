@@ -1,11 +1,5 @@
-/* ═══════════════════════════════════════════════════════════════════════════
-   CCSICT DP BLAST — Plain Design System
-   Plus Jakarta Sans · ISU Forest Green & Gold
-═══════════════════════════════════════════════════════════════════════════ */
-
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap');
 
-/* ── Design Tokens ── */
 :root {
     --forest-950: #010d01;
     --forest-900: #021a02;
@@ -42,7 +36,6 @@
     --radius-full: 999px;
 }
 
-/* ── Reset & Base ── */
 *, *::before, *::after { box-sizing: border-box; }
 
 html { scroll-behavior: auto; }
@@ -56,28 +49,21 @@ body {
     overflow-x: hidden;
 }
 
-/* ── Custom Scrollbar ── */
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--forest-950); }
 ::-webkit-scrollbar-thumb { background: var(--forest-700); border-radius: var(--radius-sm); }
 ::-webkit-scrollbar-thumb:hover { background: var(--forest-600); }
 
-/* ── Hidden Orbs ── */
 .floating-orbs { display: none; }
 
-/* ── Layout ── */
 main, nav, footer {
     position: relative;
     z-index: 1;
 }
 
-/* ── Utilities ── */
 .text-accent { color: var(--gold-400); }
 .tracking-wide { letter-spacing: 0.05em; }
 
-/* ─────────────────────────────────────────────────────────────────────────
-   NAVBAR
-───────────────────────────────────────────────────────────────────────── */
 .navbar-glass {
     position: sticky;
     top: 0;
@@ -116,9 +102,6 @@ main, nav, footer {
     color: var(--white);
 }
 
-/* ─────────────────────────────────────────────────────────────────────────
-   HERO SECTION
-───────────────────────────────────────────────────────────────────────── */
 .hero-section {
     padding: 100px 0 80px;
 }
@@ -135,6 +118,10 @@ main, nav, footer {
     height: 72px;
     width: auto;
     object-fit: contain;
+}
+
+.logo-isu.hero-logo {
+    height: 92px;
 }
 
 .hero-badge {
@@ -164,7 +151,6 @@ main, nav, footer {
     line-height: 1.7;
 }
 
-/* Hero CTA Buttons */
 .btn-accent-hero {
     display: inline-flex;
     align-items: center;
@@ -199,9 +185,7 @@ main, nav, footer {
     color: var(--white);
 }
 
-/* ─────────────────────────────────────────────────────────────────────────
-   PROCESS SECTION
-───────────────────────────────────────────────────────────────────────── */
+
 .process-section {
     padding: 80px 0;
     border-top: 1px solid var(--border);
@@ -276,22 +260,17 @@ main, nav, footer {
     margin: 0;
 }
 
-/* ─────────────────────────────────────────────────────────────────────────
-   GENERATOR SECTION
-───────────────────────────────────────────────────────────────────────── */
 .generator-section {
     padding: 80px 0 100px;
     border-top: 1px solid var(--border);
 }
 
-/* Card */
 .glass-card {
     background: var(--card-bg);
     border: 1px solid var(--border);
     border-radius: var(--radius-xl);
 }
 
-/* Step Headings */
 .step-section { }
 
 .step-heading {
@@ -318,7 +297,6 @@ main, nav, footer {
     margin-right: 12px;
 }
 
-/* Canvas */
 .canvas-container {
     width: 100%;
     max-width: 460px;
@@ -342,7 +320,6 @@ canvas {
     display: block;
 }
 
-/* Zoom Control */
 .zoom-control {
     display: flex;
     align-items: center;
@@ -350,7 +327,6 @@ canvas {
     max-width: 420px;
 }
 
-/* Form Inputs */
 .form-control, .form-select {
     background-color: var(--forest-900) !important;
     border: 1px solid var(--border) !important;
@@ -385,7 +361,6 @@ canvas {
     background-color: var(--forest-600);
 }
 
-/* Buttons */
 .btn-accent {
     background: var(--gold-500);
     color: var(--forest-950);
@@ -410,12 +385,8 @@ canvas {
     color: var(--white);
 }
 
-/* Slider */
 .slider-accent { accent-color: var(--green-500); }
 
-/* ─────────────────────────────────────────────────────────────────────────
-   FOOTER
-───────────────────────────────────────────────────────────────────────── */
 .site-footer {
     border-top: 1px solid var(--border);
     padding: 48px 0 36px;
@@ -440,6 +411,11 @@ canvas {
     width: auto;
     object-fit: contain;
     opacity: 0.85;
+}
+
+.logo-isu.footer-logo {
+    height: 54px;
+    opacity: 1;
 }
 
 .footer-name {
@@ -484,7 +460,6 @@ canvas {
     color: var(--white-20);
 }
 
-/* About the Developer Card */
 .footer-about-card {
     display: flex;
     align-items: flex-start;
@@ -537,16 +512,12 @@ canvas {
     margin: 0 0 1.75rem;
 }
 
-/* ── Animations (disabled — plain mode) ── */
 .animate-fade-up {
     opacity: 1;
     transform: none;
 }
 .delay-1, .delay-2, .delay-3, .delay-4 { }
 
-/* ─────────────────────────────────────────────────────────────────────────
-   MOBILE RESPONSIVE
-───────────────────────────────────────────────────────────────────────── */
 @media (max-width: 768px) {
     .hero-section { padding: 60px 0 50px; }
     .hero-logo { height: 52px; }
